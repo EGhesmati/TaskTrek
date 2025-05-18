@@ -1,0 +1,6 @@
+.task_column_heading{
+    display: flex;
+    align-items: center;
+    color: #007bff;
+}
+

@@ -1,0 +1,110 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.task-input,
+.tag-input {
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 150px;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    height: 40px;
+    padding: 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: left;
+    width: 150px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+}
+
+.add-tag-btn,
+.submit-btn {
+    height: 40px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-tag-btn:hover,
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    font-size: 0.875rem;
+}
+
+.remove-tag-btn {
+    background: none;
+    border: none;
+    color: #ff0000;
+    font-size: 1rem;
+    cursor: pointer;
+}

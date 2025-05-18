@@ -1,0 +1,97 @@
+.task_card {
+    max-width: 400px; /* Limit the card width */
+    margin: 16px auto; /* Center the card with vertical spacing */
+    border-radius: 12px;
+    padding: 16px;
+    background: linear-gradient(135deg, #ffffff, #f7f7f7);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #444444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.task_card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
+
+.task_text {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+.task_card_bottom_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.task_delete {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    background: #ff6f61;
+    color: #ffffff;
+    border: none;
+}
+
+.task_delete:hover {
+    background: #e53935;
+    transform: scale(1.1);
+}
+
+.delete_icon {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(1);
+}
+
+.task_card_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.status-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+.status-dropdown {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333333;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    appearance: none;
+    cursor: pointer;
+}
+
+.status-dropdown:hover {
+    border-color: #b0bec5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.status-dropdown:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 4px rgba(25, 118, 210, 0.2);
+}
