@@ -36,7 +36,7 @@ const App = () => {
                 <TaskColumn title="Doing"  tasks={tasks} status="doing" handleDelete={handleDelete} updateTaskStatus={updateTaskStatus} />
                 <TaskColumn title="Done"  tasks={tasks} status="done" handleDelete={handleDelete} updateTaskStatus={updateTaskStatus} />
             </main>
-            <Footer /> {/* Add Footer here */}
+            <Footer /> 
         </div>
     );
 };
