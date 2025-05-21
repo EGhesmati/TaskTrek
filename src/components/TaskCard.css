@@ -9,6 +9,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid #e0e0e0;
     position: relative;
+    margin-bottom: 2.5rem;
 }
 
 .task_card:hover {
@@ -94,4 +95,52 @@
     outline: none;
     border-color: #1976d2;
     box-shadow: 0 0 0 4px rgba(25, 118, 210, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .task_card {
+        max-width: 90%; /* Adjust width for smaller screens */
+        padding: 12px; /* Reduce padding */
+    }
+
+    .task_text {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    .task_card_bottom_line {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 12px;
+    }
+
+    .task_delete {
+        width: 32px; /* Adjust size */
+        height: 32px;
+    }
+
+    .status-dropdown {
+        font-size: 0.85rem; /* Adjust font size */
+        padding: 8px 12px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .task_card {
+        max-width: 100%; /* Full width for very small screens */
+        padding: 8px; /* Further reduce padding */
+    }
+
+    .task_text {
+        font-size: 0.8rem; /* Further adjust font size */
+    }
+
+    .task_delete {
+        width: 28px; /* Further adjust size */
+        height: 28px;
+    }
+
+    .status-dropdown {
+        font-size: 0.8rem; /* Further adjust font size */
+        padding: 6px 10px; /* Further adjust padding */
+    }
 }

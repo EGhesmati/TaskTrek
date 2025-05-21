@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+footer {
+    position: fixed; /* Fixes the footer to the bottom of the viewport */
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer p:first-child {
+    font-weight: bold;
+}
+
+.footer p:last-child {
+    font-style: italic;
+    color: #555;
+}
