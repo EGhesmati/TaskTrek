@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import TaskForm from './components/TaskForm.jsx';
 import TaskColumn from './components/TaskColumn.jsx';
-import Footer from './components/Footer.jsx'; // Import Footer
+import Footer from './components/Footer.jsx';
 
 import { v4 as uuidv4 } from 'uuid';
 
@@ -36,7 +36,7 @@ const App = () => {
                 <TaskColumn title="Doing"  tasks={tasks} status="doing" handleDelete={handleDelete} updateTaskStatus={updateTaskStatus} />
                 <TaskColumn title="Done"  tasks={tasks} status="done" handleDelete={handleDelete} updateTaskStatus={updateTaskStatus} />
             </main>
-            <Footer /> {/* Add Footer here */}
+            <Footer /> 
         </div>
     );
 };
