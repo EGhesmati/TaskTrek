@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import TaskForm from './components/TaskForm.jsx';
 import TaskColumn from './components/TaskColumn.jsx';
-import Footer from './components/Footer.jsx'; // Import Footer
+import Footer from './components/Footer.jsx';
 
 import { v4 as uuidv4 } from 'uuid';
 
