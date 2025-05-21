@@ -1,15 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TaskTrek 🚀
 
-Currently, two official plugins are available:
+**TaskTrek** is a simple, clean task tracker built with React and localStorage. It lets you add and delete tasks, and it remembers your to-dos even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# -TaskTrek
-# TaskTrek
-# TaskTrek
-# TaskTrek
-# TaskTrek
-# TaskTrek
-# TaskTrek
+## 🔧 Tech Stack
+
+- React 
+- HTML + CSS
+- localStorage API
+- GitHub Pages for deployment
+
+## 🖥️ Live Demo
+
+👉 [Check it out here](https://eghesmati.github.io/TaskTrek/)
+
+
