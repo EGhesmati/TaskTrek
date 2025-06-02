@@ -144,3 +144,92 @@
         padding: 6px 10px; /* Further adjust padding */
     }
 }
+.task_text_edit {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.edit_tags_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.tag-input-edit {
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    min-width: 120px;
+}
+
+.add-tag-btn {
+    height: 32px;
+    padding: 0 12px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit_buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.save-btn,
+.cancel-btn {
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.edit-btn {
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.remove-tag-btn {
+    background: none;
+    border: none;
+    color: #ff0000;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 4px;
+}
